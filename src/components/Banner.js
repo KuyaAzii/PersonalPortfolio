@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <a className="tagline" href={Resume} download > RESUME DOWNLOAD </a>
                 <h1>{`I'm Ace Nuas Polero `}
-                <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "IT Technician" ]'>
+                <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "IT Technician" ]'>
                 <span className="wrap">{text}</span></span></h1>
                 <p>Seeking a challenging position in a reputable organization where I can learn new skills,
                       expand my knowledge, and leverage my learnings to maximize my potential and contribute
