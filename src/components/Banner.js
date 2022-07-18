@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/bannerss.png";
+import headerImg from "../assets/img/own-pic.png";
 import Resume from "../CV/Resume.pdf";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 1000);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "FullStack Developer", "IT Technician" ];
+  const toRotate = ["IT Technician", "Freelancer" ];
   const period = 2000;
 
   useEffect(() => {

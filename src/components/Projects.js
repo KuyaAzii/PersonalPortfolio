@@ -6,6 +6,7 @@ import pyInter from "../assets/img/pyInter.png";
 import pyStat from "../assets/img/pyStat.png";
 import pyvisua from "../assets/img/pyvisua.png";
 import passjava from "../assets/img/passjava.png";
+import DPG from "../assets/img/DPG.png";
 import Exibit from "../assets/img/Exibit.png";
 import JavaFoundation from "../assets/img/JavaFoundation.png";
 import BestJava from "../assets/img/BestJava.png";
@@ -26,6 +27,11 @@ export const Projects = () => {
       title: "MC-CCS ICT Expo 2022",
       description: "1st Place in ICT Solution Exhibitor MC-CCS Face 'Recognition System'",
       imgUrl: Exibit,
+    },
+    {
+      title: "DICT-ICT007 Data Privacy - Good Governance",
+      description: "Completion of training workshop of DICT (MACH)",
+      imgUrl: DPG,
     },
     {
       title: "Programming for Intermediate Users Using Python",
@@ -110,7 +116,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <p> No Files Found.</p>
+                    <p> No Files Found or Not Available.</p>
   
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
